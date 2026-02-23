@@ -223,11 +223,11 @@
 
         layer_Base {
             bindings = <
-&kp GRAVE   &kp N1           &kp N2            &kp N3              &kp N4                        &kp N5                                                                                                                               &kp N6                              &kp N7                         &kp N8              &kp N9            &kp N0              &kp MINUS
-&kp TAB     &kp Q            &kp W             &kp E               &kp R                         &kp T                                                                                                                                &kp Y                               &kp U                          &kp I               &kp O             &kp P               &kp BSLH
-&kp ESC     &mt_slow LALT A  &mt_slow LCTRL S  &mt_default LGUI D  &mt_default LSHFT F           &mt_default RS(RA(RC(RG(LGUI)))) G                                                                                                   &mt_default RS(RA(RC(RG(RGUI)))) H  &mt_default RSHFT J            &mt_default RGUI K  &mt_slow RCTRL L  &mt_slow RALT SEMI  &kp SQT
-&magic 5 0  &kp Z            &kp X             &kp C               &kp V                         &kp B                                                                                                                                &kp N                               &kp M                          &kp COMMA           &kp DOT           &kp FSLH            &keypad_td
-                             &kp HOME          &kp END             &mt_default LEFT_SHIFT ENTER                                                                                                                                                                           &mt_default RIGHT_SHIFT ENTER  &kp LBKT            &kp RBKT
+&kp GRAVE   &kp N1           &kp N2            &kp N3              &kp N4                        &kp N5                                                                                                                               &kp N6                              &kp N7                       &kp N8              &kp N9            &kp N0              &kp MINUS
+&kp TAB     &kp Q            &kp W             &kp E               &kp R                         &kp T                                                                                                                                &kp Y                               &kp U                        &kp I               &kp O             &kp P               &kp BSLH
+&kp ESC     &mt_slow LALT A  &mt_slow LCTRL S  &mt_default LGUI D  &mt_default LSHFT F           &mt_default RS(RA(RC(RG(LGUI)))) G                                                                                                   &mt_default RS(RA(RC(RG(RGUI)))) H  &mt_default RSHFT J          &mt_default RGUI K  &mt_slow RCTRL L  &mt_slow RALT SEMI  &kp SQT
+&magic 5 0  &kp Z            &kp X             &kp C               &kp V                         &kp B                                                                                                                                &kp N                               &kp M                        &kp COMMA           &kp DOT           &kp FSLH            &keypad_td
+                             &kp HOME          &kp END             &mt_default LEFT_SHIFT ENTER                                                                                                                                                                           &mt_default RIGHT_GUI ENTER  &kp LBKT            &kp RBKT
                                                                                                                                      &lt_qt 3 BACKSPACE  &mt LCTRL ESC  &lt_qt 4 GRAVE  &lt_qt 4 TAB  &lt_qt 2 ENTER  &lt_qt 1 SPACE
             >;
         };
@@ -278,12 +278,12 @@
 
         layer_Magic {
             bindings = <
-  &bt BT_CLR     &kp C_BRI_DN     &kp C_BRI_UP       &kp C_PREV       &kp C_NEXT         &kp C_PP                                &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP   &none   &none    &bt BT_CLR_ALL
- &bootloader  &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                     &none         &none         &none   &none   &none       &bootloader
-  &sys_reset  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                     &none         &none         &none   &none   &none        &sys_reset
-       &none            &none            &bt_0            &bt_1            &bt_2            &bt_3                                     &none         &none         &none   &none   &none &to LAYER_Factory
-                                  &out OUT_USB            &none            &none                                                                    &none         &none   &none
-                                                                                            &none   &none   &none     &none   &none   &none
+&bt BT_CLR   &kp C_BRI_DN     &kp C_BRI_UP     &kp C_PREV       &kp C_NEXT       &kp C_PP                                                   &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none  &none  &bt BT_CLR_ALL
+&bootloader  &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                            &none       &none         &none         &none  &none  &bootloader
+&sys_reset   &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                            &none       &none         &none         &none  &none  &sys_reset
+&none        &none            &bt_0            &bt_1            &bt_2            &bt_3                                                      &none       &none         &none         &none  &none  &to LAYER_Factory
+                              &out OUT_USB     &none            &none                                                                                   &none         &none         &none
+                                                                                                  &none  &none  &none  &none  &none  &none
             >;
         };
 
