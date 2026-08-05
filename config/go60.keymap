@@ -228,7 +228,7 @@
 &kp ESC     &mt_slow LALT A  &mt_slow LCTRL S  &mt_default LGUI D  &mt_default LSHFT F           &mt_default RS(RA(RC(RG(LGUI)))) G                                                                                                   &mt_default RS(RA(RC(RG(RGUI)))) H  &mt_default RSHFT J          &mt_default RGUI K  &mt_slow RCTRL L  &mt_slow RALT SEMI  &kp SQT
 &magic 5 0  &kp Z            &kp X             &kp C               &kp V                         &kp B                                                                                                                                &kp N                               &kp M                        &kp COMMA           &kp DOT           &kp FSLH            &keypad_td
                              &kp HOME          &kp END             &mt_default LEFT_SHIFT ENTER                                                                                                                                                                           &mt_default RIGHT_GUI ENTER  &kp LBKT            &kp RBKT
-                                                                                                                                     &lt_qt 3 BACKSPACE  &mt LCTRL ESC  &lt_qt 4 GRAVE  &lt_qt 4 TAB  &lt_qt 2 ENTER  &lt_qt 1 SPACE
+                                                                                                                                     &lt_qt 4 BACKSPACE  &mt LCTRL ESC  &lt_qt 4 GRAVE  &lt_qt 3 TAB  &lt_qt 2 ENTER  &lt_qt 1 SPACE
             >;
         };
 
@@ -270,7 +270,7 @@
 &trans  &trans      &trans      &trans         &trans      &trans                                                      &trans         &trans     &trans     &trans      &trans  &trans
 &trans  &tmux_win1  &tmux_win2  &tmux_win3     &tmux_win4  &tmux_win5                                                  &kp LS(MINUS)  &kp LC(D)  &kp LC(U)  &kp LS(N4)  &trans  &trans
 &trans  &kp LALT    &kp LCTRL   &kp LGUI       &kp LSHFT   &trans                                                      &kp LEFT       &kp DOWN   &kp UP     &kp RIGHT   &trans  &trans
-&trans  &trans      &trans      &tmux_new_tab  &trans      &trans                                                      &kp HOME       &kp PG_DN  &kp PG_UP  &kp END     &trans  &to 0
+&trans  &trans      &trans      &tmux_new_tab  &kp INSERT  &trans                                                      &kp HOME       &kp PG_DN  &kp PG_UP  &kp END     &trans  &to 0
                     &trans      &trans         &trans                                                                                 &trans     &trans     &trans
                                                                        &trans  &trans  &trans  &trans  &trans  &trans
             >;
